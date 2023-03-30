@@ -19,7 +19,7 @@
     if (isset($_POST['submit'])) {
 
         $name = $_POST['name'];
-        $idNumber = $_POST['idNumber'];
+        $idNumber = $_POST['matricno'];
         $currentAddress = $_POST['currentAddress'];
         $homeAddress = $_POST['homeAddress'];
         $email = $_POST['email'];
@@ -30,7 +30,7 @@
 
         echo "<h1>Summary of Student's Details</h1><br>";
         echo "<p> Name: $name </p>";
-        echo "<p> Identification Number: $idNumber </p>";
+        echo "<p> Matric Number: $matricno </p>";
         echo "<p>Current Address: $currentAddress </p>";
         echo "<p>Home Address: $homeAddress </p>";
         echo "<p>Email: $email </p>";
