@@ -19,7 +19,7 @@
     if (isset($_POST['submit'])) {
 
         $name = $_POST['name'];
-        $idNumber = $_POST['matricno'];
+        $matricno = $_POST['matricno'];
         $currentAddress = $_POST['currentAddress'];
         $homeAddress = $_POST['homeAddress'];
         $email = $_POST['email'];
